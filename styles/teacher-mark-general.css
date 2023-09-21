@@ -1,0 +1,30 @@
+body {
+  padding: 0 ;
+  margin: 0 ;
+  font-family: 'Poppins', sans-serif ;
+  background-color: beige ;
+}
+
+img {
+  margin-top: 5px ;
+  width: 140px ;
+  margin-right: 10px ;
+}
+
+.main {
+  margin-top: 50px ;
+  margin-left: 10px ;
+  max-width: 1120px ;
+  transition: 
+    margin-left 0.5s ;
+}
+
+.main-section {
+  display: flex ;
+  align-items: center ;
+}
+
+.main-section h1,
+.main-info h1 {
+  margin-bottom: -3px ;
+}

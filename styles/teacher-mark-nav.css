@@ -1,0 +1,43 @@
+.nav {
+  position: fixed ;
+  top: 50px ;
+  bottom: 0 ;
+  left: -250px ;
+  width: auto ;
+  background-color: rgb(200, 200, 200) ;
+  z-index: 10 ;
+  padding-top: 10px ;
+  pointer-events: none ;
+  overflow-y: auto ;
+  transition:
+    left 0.5s,
+    pointer-events 0.5s ;
+}
+
+.nav-section {
+  display: flex ;
+  font-size: 20px ;
+  font-weight: 600 ;
+  height: 40px ;
+  cursor: pointer ;
+  padding: 5px 10px ;
+  margin-bottom: 10px ;
+  transition: background-color 0.15s ;
+}
+
+.nav-section:hover {
+  background-color: rgb(240, 240, 240) ;
+}
+
+.nav-section article {
+  display: flex ;
+  height: 40px ;
+  align-items: center ;
+  line-height: 20px ;
+}
+
+.nav-section-icon {
+  width: 40px ;
+  margin-right: 10px ;
+  user-select: none ;
+}
